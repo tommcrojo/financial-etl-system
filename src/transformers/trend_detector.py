@@ -18,7 +18,7 @@ from scipy import stats, signal
 from statsmodels.tsa.seasonal import seasonal_decompose
 from statsmodels.tsa.stattools import adfuller, kpss
 from sklearn.cluster import KMeans
-import ta
+import pandas_ta as ta
 
 # Configuración de logging
 logging.basicConfig(

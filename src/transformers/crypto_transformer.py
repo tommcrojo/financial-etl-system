@@ -15,7 +15,7 @@ from datetime import datetime, timedelta
 import pandas as pd
 import numpy as np
 from scipy import stats
-import ta
+import pandas_ta as ta
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 
 # Configuración de logging
